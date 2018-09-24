@@ -46,6 +46,7 @@ Finally execute these:
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
 lunch omni_dipper-eng 
+export LC_ALL=C
 mka recoveryimage
 ```
 
